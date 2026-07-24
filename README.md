@@ -31,14 +31,19 @@ This project was created for the AWS Builder Center Weekend Agent Challenge.
 ## Architecture
 
 EventBridge Scheduler
+        
         ↓
 AWS Lambda
+       
         ↓
 Amazon Bedrock (Nova Lite)
+       
         ↓
 Generate Daily AI News
+       
         ↓
 Amazon SES
+       
         ↓
 Gmail Inbox
 
