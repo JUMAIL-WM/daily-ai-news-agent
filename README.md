@@ -30,20 +30,15 @@ This project was created for the AWS Builder Center Weekend Agent Challenge.
 
 ## Architecture
 
-EventBridge Scheduler
-        
+EventBridge Scheduler 
         ↓
 AWS Lambda
-       
         ↓
 Amazon Bedrock (Nova Lite)
-       
         ↓
 Generate Daily AI News
-       
         ↓
 Amazon SES
-       
         ↓
 Gmail Inbox
 
@@ -78,6 +73,25 @@ During this project I learned how to:
 - Configure IAM permissions
 
 ---
+
+## Screenshots
+
+### 1. AWS Lambda Function
+![AWS Lambda Function](screenshots/lambda.jpg)
+
+### 2. Lambda Test Success
+![Lambda Test](screenshots/lambda-test.jpg)
+
+### 3. Amazon EventBridge Scheduler
+![EventBridge Scheduler](screenshots/scheduler.jpg)
+![EventBridge Scheduler](screenshots/scheduler1.jpg)
+
+### 4. Amazon Bedrock Nova Lite
+![Amazon Bedrock](screenshots/bedrock.jpg)
+
+### 5. Daily AI News Email
+![Gmail Email](screenshots/email.jpg)
+![Gmail Email](screenshots/email1.jpg)
 
 ## Author
 
